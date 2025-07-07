@@ -1,6 +1,6 @@
 <!-- HOME -->
 <!-- Social Links -->
-https://www.linkedin.com/in/elena-ingrid-ellingsen-554465195
+https://www.linkedin.com/in/elena-ingrid-ellingsen
 # (no dribbble needed — you can remove that icon if you want)
 https://github.com/ingell
 
@@ -31,6 +31,6 @@ Interested in collaborating? Let’s build your next big idea together — reach
 “Elena quickly understood our needs and delivered a Microsoft Teams app used by over 50,000 users. She combines technical skills with a strong focus on user experience. Highly recommended!”
 
 <!-- FOOTER -->
-https://www.linkedin.com/in/elena-ingrid-ellingsen-554465195
+https://www.linkedin.com/in/elena-ingrid-ellingsen
 # (skip Facebook/Instagram/Twitter if you don’t use them professionally)
 https://github.com/ingell
