@@ -36,10 +36,8 @@ cd portfolio
 
 ### 📸 6. Screenshots
 
-```markdown
 ![Homepage Screenshot](/home.png)
 ![Projects Section](/project.png)
-```
 
 ## 📇 Contact
 
