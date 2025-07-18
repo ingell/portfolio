@@ -26,20 +26,20 @@ Check out the live site here: [ingell.github.io/portfolio](https://ingell.github
 
 Clone the project:
 
-````bash
+```bash
 git clone https://github.com/ingell/portfolio.git
 cd portfolio
 
+```
 
 ---
 
 ### 📸 6. Screenshots
-```markdown
 
+```markdown
 ![Homepage Screenshot](/home.png)
 ![Projects Section](/project.png)
-
-````
+```
 
 ## 📇 Contact
 
@@ -58,3 +58,7 @@ Modified and extended by Elena Ellingsen.
 ## 💬 Why I Built This
 
 I wanted a clean, modern portfolio that loads fast, looks professional, and clearly communicates who I am and what I build. It's part of a broader plan to land remote work and freelance clients.
+
+```
+
+```
