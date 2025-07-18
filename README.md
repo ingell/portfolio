@@ -6,7 +6,7 @@ This is my personal portfolio site, built to showcase the projects, skills, and 
 
 ## 🔗 Live Demo
 
-Check out the live site here: [https://ingell.github.io/portfolio/](https://ingell.github.io/portfolio/)
+Check out the live site here: [ingell.github.io/portfolio](https://ingell.github.io/portfolio/)
 
 ## 🧰 Tech Stack
 
@@ -37,13 +37,16 @@ cd portfolio
 ```markdown
 ## 📸 Screenshots
 
+## 📸 Screenshots
+
 ![Homepage Screenshot](assets/img/home.png)
-![Projects Section](assets/img/projects.png)
+![Projects Section](assets/img/project.png)
+
 ````
 
 ## 📇 Contact
 
-- Portfolio: [https://your-deployed-url.com](https://ingell.github.io/portfolio/)
+- Portfolio: [ingell.github.io/portfolio](https://ingell.github.io/portfolio/)
 - LinkedIn: [linkedin.com/in/elena-ingrid-ellingsen-554465195](https://linkedin.com/in/elena-ingrid-ellingsen-554465195)
 - Email: ingelsnipes@gmail.com
 
