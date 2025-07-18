@@ -36,8 +36,7 @@ cd portfolio
 
 ### 📸 6. Screenshots
 
-![Homepage Screenshot](/home.png)
-![Projects Section](/project.png)
+![Desctop and phone versions!](/project.png)
 
 ## 📇 Contact
 
