@@ -757,6 +757,7 @@ img {
 
 .portfolio__button .portfolio__icon {
   transform: translateX(0.25rem);
+  background-color: var(--text-color-light) !important;
 }
 
 .swiper-button-prev::after,
