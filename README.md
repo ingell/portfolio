@@ -35,12 +35,9 @@ cd portfolio
 
 ### 📸 6. Screenshots
 ```markdown
-## 📸 Screenshots
 
-## 📸 Screenshots
-
-![Homepage Screenshot](assets/img/home.png)
-![Projects Section](assets/img/project.png)
+![Homepage Screenshot](/home.png)
+![Projects Section](/projects.png)
 
 ````
 
