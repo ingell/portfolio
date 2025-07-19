@@ -19,6 +19,7 @@ Check out the live site here: [ingell.github.io/portfolio](https://ingell.github
 - Responsive design for mobile and desktop
 - Project showcase with links
 - About Me section
+- Translations to Norwegian, English and Spanish (coming soon)
 - Contact form (connects via email or placeholder)
 - Smooth scroll and animation effects
 
