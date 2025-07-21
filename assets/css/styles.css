@@ -359,6 +359,86 @@ img {
   font-size: 1.25rem;
 }
 
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  user-select: none;
+}
+
+.language-button {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  min-width: 130px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.language-button:hover {
+  background-color: #f0f0f0;
+}
+
+.language-button .icon-globe {
+  font-size: 18px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgb(0 0 0 / 0.15);
+  padding: 8px 0;
+  min-width: 160px;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  border-radius: 8px;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.flag {
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+/* Small arrow on top of dropdown */
+.dropdown-menu::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid white;
+}
+
 /*==================== BUTTONS ====================*/
 
 .button {
