@@ -1,7 +1,10 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
-  navClose = document.getElementById("nav-close");
+  navClose = document.getElementById("nav-close"),
+  langOpen = document.getElementById("lang-open"),
+  langClose = document.getElementById("lang-close");
+
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if (navToggle) {
@@ -16,6 +19,21 @@ if (navClose) {
     navMenu.classList.remove("show-menu");
   });
 }
+
+/*==================== LANGUAGE SHOW Y HIDDEN ====================*/
+/* Validate if constant exists */
+if (langOpen) {
+  langOpen.addEventListener("click", () => {
+    document.querySelector(".language__menu").classList.add("show-language");
+  });
+}
+
+if (langClose) {
+  langClose.addEventListener("click", () => {
+    document.querySelector(".language__menu").classList.remove("show-language");
+  });
+}
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll("nav__link");
 function linkAction() {

@@ -61,20 +61,34 @@
                 <span data-i18n="contact"></span>
               </a>
             </li>
-
-            <div class="language-selector">
-              <button class="language-btn" onclick="changeLng('en')">
-                English
-              </button>
-              <button class="language-btn" onclick="changeLng('no')">
-                Norsk
-              </button>
-            </div>
           </ul>
+
           <i class="uil uil-times-circle nav__close" id="nav-close"></i>
         </div>
+
         <div class="nav__btns">
           <!--Theme change button -->
+
+          <div class="language__switcher">
+            <button class="language__button" id="lang-open">
+              <i class="uil uil-globe lang__icon"></i>
+            </button>
+
+            <!-- Language dropdown menu -->
+            <div class="language__menu">
+              <button class="language__close" id="lang-close">×</button>
+              <ul class="language__list">
+                <li>
+                  <a onclick="changeLng('en')" class="language__item"
+                    >English</a
+                  >
+                </li>
+                <li>
+                  <a onclick="changeLng('no')" class="language__item">Norsk</a>
+                </li>
+              </ul>
+            </div>
+          </div>
           <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
