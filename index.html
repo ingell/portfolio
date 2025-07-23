@@ -67,15 +67,12 @@
         </div>
 
         <div class="nav__btns">
-          <!--Theme change button -->
-
+          <!-- Language dropdown menu -->
           <div class="language__switcher">
             <button class="language__button" id="lang-open">
               <i class="uil uil-globe lang__icon"></i>
             </button>
-
-            <!-- Language dropdown menu -->
-            <div class="language__menu">
+            <div class="language__menu" data-toggleblock="language__menu">
               <button class="language__close" id="lang-close">×</button>
               <ul class="language__list">
                 <li>
@@ -89,6 +86,8 @@
               </ul>
             </div>
           </div>
+
+          <!--Theme change button -->
           <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
@@ -661,18 +660,15 @@
                 class="portfolio__img"
               />
               <div class="portfolio__data">
-                <h3
-                  class="portfolio__title"
-                  data-i18n="startupLandingTitle"
-                ></h3>
+                <h3 class="portfolio__title" data-i18n="trantlationsTitle"></h3>
                 <p
                   class="portfolio__description"
-                  data-i18n="startupLandingDescription"
+                  data-i18n="trantlationsDescription"
                 ></p>
                 <a
                   href="#"
-                  class="button button--flex button--small portfolio__button disabled"
-                  data-i18n="demoNotLive"
+                  class="button button--flex button--small portfolio__button"
+                  data-i18n="clickWorldIconToView"
                 >
                   <i class="uil uil-arrow-right button__icon"></i>
                 </a>
